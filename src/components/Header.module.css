@@ -68,14 +68,14 @@ a:hover {
   transition: 0.9s;
 }
 /* adaptive */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 475px) {
   /* Стили для экранов шириной до 600 пикселей (мобильные устройства) */
   header {
     background-image: url("./../img/ava-mobile.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 375px;
-    height: 100%;
+    width: 475px;
+    height: 800px;
 
     margin: 0;
     padding: 0;
@@ -88,6 +88,8 @@ a:hover {
     font-size: 24px;
   }
   h1 {
+    margin: 0 auto;
+    max-width: 340px;
     margin-top: 0;
     color: #cfc0ab;
     font-size: 32px;
@@ -104,6 +106,6 @@ a:hover {
     margin-bottom: 90px;
   }
   .blur {
-    margin-top: 290px;
+    margin-top: 390px;
   }
 }
