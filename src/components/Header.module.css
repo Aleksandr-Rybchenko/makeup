@@ -65,7 +65,7 @@ a {
 }
 a:hover {
   background-color: #e1d0b9;
-  transition: 0.8s;
+  transition: 0.9s;
 }
 /* adaptive */
 @media only screen and (max-width: 375px) {
