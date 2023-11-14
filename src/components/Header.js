@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <div>
+        <div className={[styles.header_img]}>
           <img src={avaYulia} alt="Nesterenko Yulia" />
         </div>
         <div className={styles.text}>
