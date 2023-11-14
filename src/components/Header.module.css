@@ -76,7 +76,7 @@ a:hover {
   transition: 0.9s;
 }
 /* adaptive */
-@media (max-width: 767px) {
+@media (max-width: 580px) {
   *,
   * {
     margin: 0;
