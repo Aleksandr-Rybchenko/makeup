@@ -76,34 +76,40 @@ a:hover {
   transition: 0.9s;
 }
 /* adaptive */
-@media (max-width: 580px) {
+
+@media (min-width: 375px) and (max-width: 768px) {
   *,
   * {
     margin: 0;
     padding: 0;
   }
   header {
+    width: 100%;
     text-align: center;
     background-image: url("../img/ava-mobile-non-blur.png");
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
   }
-  img {
+  .header_img {
     display: none;
   }
   .text {
     margin: 0 auto;
   }
   .blur {
-    margin-top: 877px;
+    margin-top: 240px;
+    backdrop-filter: blur(240px rgba(254, 0, 13, 0));
   }
   h1 {
     color: #cfc0ab;
-    font-size: 7.5rem;
-    max-width: 100%; /* Сделать максимальную ширину для h1 на мобильных устройствах */
+    font-size: 10vw;
   }
-
   h2 {
+    margin-top: 18vw;
+    font-size: 8vw;
+    text-align: center;
+  }
+  /* h2 {
     font-size: 90px;
     margin-top: 231px;
     text-align: center;
@@ -114,13 +120,11 @@ a:hover {
     margin-top: 24px;
     color: #cfc0ab;
     font-size: 58px;
-    max-width: 600px;
   }
 
   a {
-    width: 68rem;
     font-size: 62px;
     padding: 33px 0;
     margin-top: 60px;
-  }
+  } */
 }
